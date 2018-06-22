@@ -18,12 +18,12 @@ public class GDDAOHelper {
 
 	/**
 	 * @param type
-	 *            String describing Sql type of the input/output parameter
-	 * @return integer consntant from Types class representing that Sql type
+	 *            String describing SQL type of the input/output parameter
+	 * @return integer constant from Types class representing that SQL type
 	 */
 	public int convertType(String type) {
 
-		// Will be used to return parameter type after reading from xml file
+		// Will be used to return parameter type after reading from XML file
 		if (type.equals(TYPE_VARCHAR))
 			return Types.VARCHAR;
 		else if (type.equals(TYPE_INTEGER))

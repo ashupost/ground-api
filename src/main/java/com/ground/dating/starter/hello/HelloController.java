@@ -13,7 +13,6 @@ import com.ground.dating.starter.jdbc.ExportsIPBean;
 import com.ground.dating.starter.jdbc.ExportsJDBC_BS;
 import com.ground.dating.starter.jdbc.ExportsOPBean;
 import com.ground.dating.starter.jdbc.GDException;
-import com.ground.dating.starter.jdbc.StoredProcedureDao;
 
 @RestController
 public class HelloController {
@@ -40,7 +39,7 @@ public class HelloController {
 			e.printStackTrace();
 		}
 		
-
+        opBean.toString();
 		return Arrays.asList(new User(100, "kkkkk"), new User(200,"mm1111"));
 	}
 	

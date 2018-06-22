@@ -87,7 +87,7 @@ public class GDSimpleJdbcCallImpl extends SimpleJdbcCall {
 	 *            in this map. It is legal for map entries to be
 	 *            <code>null, and this will produce the
 	 * correct behavior using a NULL argument to the stored procedure.
-	 * @return map of output params, keyed by name as in parameter declarations.
+	 * @return map of output parameters, keyed by name as in parameter declarations.
 	 *         Output parameters will appear here, with their values after the
 	 *         stored procedure has been called.
 	 */

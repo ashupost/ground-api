@@ -14,6 +14,8 @@ public abstract class GDJDBCAbstractBusinessService implements ApplicationContex
 	protected ApplicationContext applicationContext;
 	private final static String CLASS_NAME = "com.ground.dating.starter.jdbc.GDJDBCAbstractBusinessService";
 	private final Logger logger = LoggerFactory.getLogger(this.getClass().getName());
+	
+	
 
 	/**
 	 * @param dataServiceKey
@@ -42,10 +44,10 @@ public abstract class GDJDBCAbstractBusinessService implements ApplicationContex
 	 * Set the ApplicationContext that this object runs in. Normally this call
 	 * will be used to initialize the object.
 	 * <p>
-	 * Invoked after population of normal bean properties but before an init
+	 * Invoked after population of normal bean properties but before an initial
 	 * callback such as
 	 * {@link org.springframework.beans.factory.InitializingBean#afterPropertiesSet()}
-	 * or a custom init-method. Invoked after
+	 * or a custom initial - method. Invoked after
 	 * {@link ResourceLoaderAware#setResourceLoader},
 	 * {@link ApplicationEventPublisherAware#setApplicationEventPublisher} and
 	 * {@link MessageSourceAware}, if applicable.
